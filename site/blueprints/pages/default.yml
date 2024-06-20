@@ -16,9 +16,6 @@ status:
     label: Menu Page
     text: The page is listed in the main menu
 
-options:
-  preview: "{{ page.frontendUrl }}"
-
 # Content area width 2 columns and 3 sections: fields, pages, and files
 # Columns: https://getkirby.com/docs/guide/blueprints/layout#defining-columns
 columns:
@@ -42,4 +39,3 @@ columns:
       # Files section: https://getkirby.com/docs/reference/panel/sections/files
       files:
         type: files
-

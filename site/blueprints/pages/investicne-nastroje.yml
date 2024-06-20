@@ -1,0 +1,109 @@
+title: Investičné nástroje
+
+fields:
+  category1:
+    label: Investičné nástroje
+    type: structure
+    fields:
+      name:
+        label: Názov
+        type: text
+      description:
+        label: Popis
+        type: textarea
+      subheading1:
+        label: Podnadpis 
+        type: text
+      description1:
+        label: Popis
+        type: textarea
+      subheading2:
+        label: Podnadpis
+        type: text
+      description2:
+        label: Popis
+        type: textarea
+      subheading3:
+        label: Podnadpis
+        type: text
+      description3:
+        label: Popis
+        type: textarea
+      subheading4:
+        label: Podnadpis
+        type: text
+      description4:
+        label: Popis
+        type: textarea
+      subheading5:
+        label: Podnadpis
+        type: text
+      description5:
+        label: Popis
+        type: textarea
+      subheading6:
+        label: Podnadpis
+        type: text
+      description6:
+        label: Popis
+        type: textarea
+      subheading7:
+        label: Podnadpis
+        type: text
+      description7:
+        label: Popis
+        type: textarea
+      subheading8:
+        label:Podnadpis
+        type: text
+      description8:
+        label: Popis
+        type: textarea
+      subheading9:
+        label:Podnadpis
+        type: text
+      description9:
+        label: Popis
+        type: textarea
+      subheading10:
+        label: Podnadpis
+        type: text
+      description10:
+        label: Popis
+        type: textarea
+      subheading11:
+        label: Podnadpis
+        type: text
+      description11:
+        label: Popis
+        type: textarea
+      subheading12:
+        label: Popis
+        type: text
+      description12:
+        label: Popis
+        type: textarea
+      subheading13:
+        label: Podnadpis
+        type: text
+      description13:
+        label: Popis
+        type: textarea
+      subheading14:
+        label: Podnadpis
+        type: text
+      description14:
+        label: Popis
+        type: textarea
+      subheading15:
+        label: Podnadpis
+        type: text
+      description15:
+        label: Popis
+        type: textarea
+      subheading16:
+        label: Podnadpis
+        type: text
+      description16:
+        label: Popis
+        type: textarea

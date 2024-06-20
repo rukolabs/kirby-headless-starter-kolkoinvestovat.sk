@@ -1,0 +1,26 @@
+title: Blog
+
+columns:
+  # Left column with custom fields
+  content:
+    width: 1/3
+    sections:
+      content:
+        type: fields
+        fields:
+          heading1:
+            label: Nadpis
+            type: textarea
+          textarea:
+            label: Text
+            type: textarea
+
+  # Right column with blog posts
+  posts:
+    width: 2/3
+    sections:
+      posts:
+        type: pages
+        headline: Blog Posts
+        templates:
+          - blogpost

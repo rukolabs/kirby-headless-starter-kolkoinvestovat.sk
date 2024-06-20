@@ -1,0 +1,32 @@
+title: Blog Post
+fields:
+  title:
+    label: Nadpis
+    type: text
+  text1:
+    label: Popis
+    type: textarea
+  subheading1:
+    label: Podnadpis
+    type: text
+  text2:
+    label: Popis
+    type: textarea
+  subheading2:
+    label: Podnadpis
+    type: text
+  text3:
+    label: Popis
+    type: textarea
+  subheading3:
+    label: Podnadpis (pod bannerom)
+    type: text
+  text4:
+    label: Popis
+    type: textarea
+  subheading4:
+    label: Podnadpis (pod bannerom)
+    type: text
+  text5:
+    label: Popis
+    type: textarea

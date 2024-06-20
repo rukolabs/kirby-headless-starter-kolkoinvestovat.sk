@@ -1,0 +1,66 @@
+title: Investičné platformy
+
+fields:
+  platforms:
+    label: Platformy
+    type: structure
+    fields:
+      name:
+        label: Názov
+        type: text
+      year:
+        label: Rok založenia
+        type: text
+      origin:
+        label: Krajina pôvodu
+        type: text
+      regulation:
+        label: Regulačný status
+        type: text
+      description:
+        label: Popis
+        type: textarea
+      fees:
+        label: Poplatky
+        type: textarea
+      color:
+        label: Farba (HEX kód, predvolená je fialová)
+        type: color
+      categories:
+        label: Kategórie
+        type: checkboxes
+        options:
+          category1: Akcie
+          category2: Dlhopisy
+          category3: Reality
+          category4: VC
+          category5: Fondy
+          category6: Kryptomeny
+          category7: Deriváty
+          category8: Zlato a drahé kovy
+          category9: Komodity
+        required: true
+        min: 1
+      products:
+        label: Produkty
+        type: structure
+        fields:
+          name:
+            label: Názov produktu
+            type: text
+          description:
+            label: Popis produktu
+            type: textarea
+      links:
+        label: Odkazy
+        type: structure
+        fields:
+          link1:
+            label: App store
+            type: url
+          link2:
+            label: Google play
+            type: url
+          link3:
+            label: AppGallery
+            type: url

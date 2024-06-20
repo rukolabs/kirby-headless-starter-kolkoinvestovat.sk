@@ -1,0 +1,62 @@
+title: Výpočet
+
+fields:
+  top-heading:
+    label: Nadpis
+    type: text
+  description:
+    label: Podnadpis
+    type: textarea
+  savings_rate:
+    label: Percento investičných peňazí
+    type: number
+  categories:
+    label: Vekové kategórie
+    type: structure
+    fields:
+      age:
+        label: Veková kategória (do veku)
+        type: number
+      strategies:
+        label: Stratégie
+        type: structure
+        fields:
+          strategy-name:
+            label: Názov stratégie
+            type: text
+          instrument1:
+            label: Krypto
+            type: number
+            min: 0
+            max: 100
+            step: 0.01
+          instrument2:
+            label: Akcie
+            type: number
+            min: 0
+            max: 100
+            step: 0.01
+          instrument3:
+            label: Fondy
+            type: number
+            min: 0
+            max: 100
+            step: 0.01
+          instrument4:
+            label: Dlhopisy
+            type: number
+            min: 0
+            max: 100
+            step: 0.01
+          instrument5:
+            label: Zlato
+            type: number
+            min: 0
+            max: 100
+            step: 0.01
+          instrument6:
+            label: Realitné investície
+            type: number
+            min: 0
+            max: 100
+            step: 0.01

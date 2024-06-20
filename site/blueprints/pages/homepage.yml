@@ -1,0 +1,21 @@
+title: Homepage
+
+fields:
+  top-heading:
+    label: Hlavný nadpis
+    type: text
+  description:
+    label: Podnadpis
+    type: textarea
+  second-heading:
+    label: Druhý nadpis
+    type: text
+  second-description:
+    label: Druhý podnadpis
+    type: textarea
+  third-heading:
+    label: Tretí nadpis
+    type: text
+  third-description:
+    label: Tretí podnadpis
+    type: textarea
